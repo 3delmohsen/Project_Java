@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="490.0" prefWidth="601.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programe.DispalyStudent">
+    <children>
+        <Label layoutX="34.0" layoutY="134.0" text="Name Student" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="134.0">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Label>
+        <TextField fx:id="NameStudent" layoutX="152.0" layoutY="131.0" prefHeight="26.0" prefWidth="313.0" promptText="Name Student" AnchorPane.topAnchor="130.0" />
+        <ImageView fitHeight="50.0" fitWidth="213.0" layoutX="448.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@dtu-logo-ar.png" />
+            </image></ImageView>
+        <Label fx:id="IdStudent12" layoutX="28.0" layoutY="169.0" text="ID Student" AnchorPane.leftAnchor="35.0">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Label>
+        <TextField fx:id="IdStudent1" layoutX="151.0" layoutY="167.0" prefHeight="26.0" prefWidth="314.0" promptText="ID Student" AnchorPane.topAnchor="165.0" />
+        <TextField fx:id="YearsStudent" layoutX="151.0" layoutY="203.0" prefHeight="26.0" prefWidth="314.0" promptText="Years" AnchorPane.topAnchor="200.0" />
+        <Label layoutX="33.0" layoutY="204.0" text="Years" AnchorPane.leftAnchor="35.0">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Label>
+        <Label layoutX="28.0" layoutY="239.0" text="Email" AnchorPane.leftAnchor="35.0">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font>
+        </Label>
+        <TextField fx:id="EmailStudent" layoutX="151.0" layoutY="243.0" prefHeight="26.0" prefWidth="314.0" promptText="Email" AnchorPane.topAnchor="235.0" />
+        <TextField fx:id="CollegeStudent" layoutX="152.0" layoutY="277.0" prefHeight="26.0" prefWidth="314.0" promptText="College" AnchorPane.topAnchor="270.0" />
+        <Label layoutX="35.0" layoutY="275.0" text="College">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="35.0" layoutY="308.0" text="Department">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="36.0" layoutY="344.0" text="Degree">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font>
+        </Label>
+        <TextField fx:id="DegreeStudent" layoutX="151.0" layoutY="335.0" prefHeight="26.0" prefWidth="314.0" promptText="Degree" AnchorPane.topAnchor="340.0" />
+        <Button layoutX="234.0" layoutY="398.0" mnemonicParsing="false" onAction="#updatef" prefHeight="26.0" prefWidth="141.0" text="Update" textFill="#119226">
+            <font>
+                <Font name="Arial Bold" size="12.0" />
+            </font></Button>
+      <Button layoutX="182.0" layoutY="71.0" mnemonicParsing="false" onAction="#cont" style="-fx-background-color: green;" text="Update student information" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="DepartmentStudent" layoutX="151.0" layoutY="304.0" prefHeight="26.0" prefWidth="314.0" promptText="Department" />
+    </children>
+</AnchorPane>

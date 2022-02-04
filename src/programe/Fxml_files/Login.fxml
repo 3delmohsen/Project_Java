@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="340.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programe.Controller">
+    <children>
+        <Button fx:id="loginbtn" layoutX="133.0" layoutY="207.0" mnemonicParsing="false" onAction="#loginA" text="Login">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <TextField fx:id="user" layoutX="101.0" layoutY="114.0" prefHeight="27.0" prefWidth="160.0" promptText="User Name" style="-fx-border-color: black;" />
+        <PasswordField fx:id="pass" layoutX="101.0" layoutY="162.0" prefHeight="27.0" prefWidth="160.0" promptText="Password" style="-fx-border-color: black;" />
+        <Button layoutX="190.0" layoutY="207.0" mnemonicParsing="false" onAction="#closeA" text="Close" textFill="#fa1111">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Label layoutX="21.0" layoutY="119.0" text="User Name">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="167.0" text="Password">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="72.0" fitWidth="190.0" layoutX="84.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@dtu-logo-ar.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="233.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@main.png" />
+            </image>
+        </ImageView>
+
+
+
+    </children>
+</AnchorPane>

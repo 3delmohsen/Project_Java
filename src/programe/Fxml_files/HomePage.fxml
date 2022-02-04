@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="675.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programe.ControllerHomePage">
+   <Button layoutX="37.0" layoutY="410.0" mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="83.0" text="Logout" textFill="#f50101">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Button>
+   <Label fx:id="username" layoutX="140.0" layoutY="27.0" />
+
+   <ImageView fitHeight="82.0" fitWidth="159.0" layoutX="490.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@dtu-logo-ar.png" />
+   </ImageView>
+
+
+   <Button layoutX="51.0" layoutY="178.0" mnemonicParsing="false" onAction="#AddStu" prefHeight="46.0" prefWidth="238.0" text="Add Student" textFill="#0a5acc">
+      <font>
+         <Font name="Arial Bold" size="14.0" />
+      </font>
+   </Button>
+
+
+   <Button layoutX="51.0" layoutY="275.0" mnemonicParsing="false" onAction="#disstu" prefHeight="46.0" prefWidth="238.0" text="Search, update and delete data" textAlignment="RIGHT" textFill="#0a5acc">
+      <font>
+         <Font name="Arial Bold" size="14.0" />
+      </font>
+   </Button>
+
+   <ImageView fitHeight="197.0" fitWidth="332.0" layoutX="324.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@stage-engineer-silhouette-with-icons.jpg" />
+   </ImageView>
+
+   <Label alignment="CENTER" contentDisplay="TOP" layoutX="25.0" layoutY="16.0" prefHeight="57.0" prefWidth="83.0" text="Home" textAlignment="CENTER" textFill="#1e1894">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Label>
+
+
+</AnchorPane>

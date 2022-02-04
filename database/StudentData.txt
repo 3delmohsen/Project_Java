@@ -1,0 +1,10 @@
+503:fgthtgjn:5:sami@gmail:dtu:Department:058525254:
+504:Ali:3:ahmed@gmail:dtu:Department:80.225:
+801:khaled:18:khaled:dtu:Department:8012:
+802:adel::::Department::
+225:adel mohsen:3:adelmohsen215@gmail.com:DTU:Department:1000:
+1225:Adel Mohsen Mohktar:10:adelmohsen@gmail.com:DTU DTU:ICT:1000:
+
+
+1:as::::::
+sd:2::::::
